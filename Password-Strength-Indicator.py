@@ -42,8 +42,7 @@ def check_password_strength(password):
     return "Strong"
 
 
-# Prompt the user for a password.
-password = input("Enter a password: ")
+password = input("Enter Password: ")
 
 # Check the password strength and print the result.
 password_strength = check_password_strength(password)
